@@ -1,0 +1,13 @@
+{
+  "uuid": "thattem-gnome-extension@thattemperature",
+  "name": "Thattem Gnome Extension",
+  "description": "Exposes some D-Bus interfaces",
+  "shell-version": [
+    "45",
+    "46",
+    "47",
+    "48",
+    "49"
+  ],
+  "url": ""
+}

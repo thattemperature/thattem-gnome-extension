@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<node>
+  <interface name="org.gnome.Shell.Extensions.ThattemGnomeExtension">
+    <method name="SwitchWorkspaceTo">
+      <arg type="i" direction="in" name="index"/>
+    </method>
+    <method name="GetActiveWorkspace">
+      <arg type="i" direction="out" name="index"/>
+    </method>
+    <method name="GetWorkspaceCount">
+      <arg type="i" direction="out" name="count"/>
+    </method>
+  </interface>
+</node>
