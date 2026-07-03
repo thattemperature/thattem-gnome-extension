@@ -19,7 +19,7 @@ export default class ThattemGnomeExtension extends Extension {
     }
 
     disable() {
-        this._dbusImpl.unexport();
+        this._dbusImpl?.unexport();
         this._dbusImpl = null;
     }
 
